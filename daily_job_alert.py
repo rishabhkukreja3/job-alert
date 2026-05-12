@@ -29,10 +29,9 @@ import pytz
 # ─────────────────────────────────────────────────────────────────────────────
 
 import os
-RAPIDAPI_KEY   = os.environ.get("0157f69017msh160e299203d7ee8p18d610jsn2447f4bf5f8e
-", "")
-GMAIL_ADDRESS  = os.environ.get("rishabhkukreja4@gmail.com", "")
-GMAIL_APP_PASS = os.environ.get("nvpfeallvznmtvvf", "")         # 16-char app password from myaccount.google.com/apppasswords
+RAPIDAPI_KEY = os.environ.get("RAPIDAPI_KEY", "")
+GMAIL_ADDRESS = os.environ.get("GMAIL_ADDRESS", "")
+GMAIL_APP_PASS = os.environ.get("GMAIL_APP_PASS", "")       # 16-char app password from myaccount.google.com/apppasswords
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  YOUR JOB PREFERENCES (already set to match what you want)
