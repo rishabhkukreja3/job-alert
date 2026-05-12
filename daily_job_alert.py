@@ -28,9 +28,11 @@ import pytz
 #  FILL IN YOUR DETAILS HERE  ↓↓↓
 # ─────────────────────────────────────────────────────────────────────────────
 
-RAPIDAPI_KEY   = "0157f69017msh160e299203d7ee8p18d610jsn2447f4bf5f8e"    # From rapidapi.com (same key you already have)
-GMAIL_ADDRESS  = "rishabhkukreja4@gmail.com"       # The Gmail that SENDS the alert
-GMAIL_APP_PASS = "nvpfeallvznmtvvf"          # 16-char app password from myaccount.google.com/apppasswords
+import os
+RAPIDAPI_KEY   = os.environ.get("0157f69017msh160e299203d7ee8p18d610jsn2447f4bf5f8e
+", "")
+GMAIL_ADDRESS  = os.environ.get("rishabhkukreja4@gmail.com", "")
+GMAIL_APP_PASS = os.environ.get("nvpfeallvznmtvvf", "")         # 16-char app password from myaccount.google.com/apppasswords
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  YOUR JOB PREFERENCES (already set to match what you want)
